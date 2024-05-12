@@ -1,28 +1,3 @@
-getgenv().Settings = {
-    ["HostID"]  = 876596840,
-    ["Prefix"]  = "/",
-    ["FPS"]     = 2
-};
-getgenv().Alts = {
-    3254109803,
-    3256773976,
-    3253645703,
-    3256732079,
-    3256732823,
-    3250983639,
-    3251500914,
-    3253338143,
-    3256317650,
-    3251658519,
-    3256651311,
-    3256771331,
-    3250521971,
-    3251813407,
-};
-
-game:GetService("RunService"):Set3dRenderingEnabled(true) -- Don't turn on with Emulator (ram will go up overtime)
-
-
 if game.PlaceId ~= 2788229376 then return end
 
 
